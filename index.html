@@ -1,50 +1,199 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 
-    <title>Ali Food Point | Food Delivery in Gulshan-e-Iqbal</title>
+<meta charset="UTF-8">
 
-    <meta name="description" content="Order food delivery from Ali Food Point in Gulshan-e-Iqbal, Karachi. Contact us on WhatsApp for your food delivery order.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do you offer food delivery in Gulshan-e-Iqbal?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Ali Food Point offers food delivery services in Gulshan-e-Iqbal, Karachi."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I place a food delivery order?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact Ali Food Point on WhatsApp to ask about food delivery orders."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I contact Ali Food Point?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can contact us through WhatsApp at 0335 2554413."
-          }
-        }
-      ]
+<title>Ali Food Point | Food Delivery in Gulshan-e-Iqbal</title>
+
+<meta name="description" content="Order food delivery from Ali Food Point in Gulshan-e-Iqbal, Karachi. Contact us on WhatsApp for your food delivery order.">
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f7f7f7;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px 15px;
+    background: white;
+}
+
+.food-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.menu-item h3 {
+    margin: 0 0 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 18px;
+}
+
+.whatsapp {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    background: #25D366;
+    color: white;
+}
+
+.info {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
     }
-    </script>
+
+    main {
+        padding: 20px 15px;
+    }
+
+    .whatsapp {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "name": "Ali Food Point",
+  "telephone": "+923352554413",
+  "servesCuisine": "Pakistani Food",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Gulshan-e-Iqbal",
+    "addressRegion": "Karachi",
+    "addressCountry": "PK"
+  },
+  "areaServed": "Gulshan-e-Iqbal, Karachi"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer food delivery in Gulshan-e-Iqbal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Ali Food Point offers food delivery services in Gulshan-e-Iqbal, Karachi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I place a food delivery order?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can contact Ali Food Point on WhatsApp to place a food delivery order."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact Ali Food Point?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can contact us through WhatsApp at 0335 2554413."
+      }
+    }
+  ]
+}
+</script>
 
 </head>
 
 <body>
 
+<header>
+
 <h1>Best Food Delivery in Gulshan-e-Iqbal</h1>
+
+<p>Ali Food Point — Food Delivery in Gulshan-e-Iqbal, Karachi</p>
+
+</header>
+
+<main>
+
+<img src="test.jpg.jpg"
+alt="Ali Food Point food delivery in Gulshan-e-Iqbal Karachi"
+class="food-image">
 
 <h2>Food Delivery Menu in Gulshan-e-Iqbal</h2>
 
@@ -57,52 +206,140 @@ Customers can order food from Ali Food Point
 for delivery in Gulshan-e-Iqbal.
 </p>
 
+<h2>Popular Food</h2>
+
+<div class="menu-item">
+
+<h3>Chicken Biryani</h3>
+
+<p>Delicious chicken biryani.</p>
+
+<div class="price">Rs. 350</div>
+
+</div>
+
+<div class="menu-item">
+
+<h3>Chicken Burger</h3>
+
+<p>Tasty chicken burger.</p>
+
+<div class="price">Rs. 450</div>
+
+</div>
+
+<div class="menu-item">
+
+<h3>Chicken Roll</h3>
+
+<p>Fresh and delicious chicken roll.</p>
+
+<div class="price">Rs. 250</div>
+
+</div>
+
+<div class="menu-item">
+
+<h3>Fries</h3>
+
+<p>Crispy golden fries.</p>
+
+<div class="price">Rs. 200</div>
+
+</div>
+
+<div class="menu-item">
+
+<h3>Cold Drinks</h3>
+
+<p>Refreshing cold drinks.</p>
+
+<div class="price">Rs. 100</div>
+
+</div>
+
 <h2>Order Food Delivery in Gulshan-e-Iqbal</h2>
+
+<p>
+Ali Food Point offers food delivery
+in Gulshan-e-Iqbal, Karachi.
+Contact us on WhatsApp to place your order.
+</p>
+
+<a class="whatsapp"
+href="https://wa.me/923352554413"
+target="_blank">
+Order Food on WhatsApp
+</a>
 
 <h2>Delivery Areas</h2>
 
 <p>
-Ali Food Point offers food delivery in Gulshan-e-Iqbal, Karachi.
-We provide food delivery services for customers in the surrounding areas.
-</p>
-
-<p>
-Contact Ali Food Point to learn more about
-food delivery services in Gulshan-e-Iqbal, Karachi.
+Ali Food Point offers food delivery in
+Gulshan-e-Iqbal, Karachi.
+We provide food delivery services for customers
+in the surrounding areas.
 </p>
 
 <h2>Contact Ali Food Point</h2>
 
+<div class="info">
+
 <p>
-For food delivery orders in Gulshan-e-Iqbal, Karachi,
-contact us on WhatsApp.
+<strong>WhatsApp:</strong>
+0335 2554413
 </p>
 
-<p>WhatsApp: 0335 2554413</p>
+<p>
+<strong>Location:</strong>
+Gulshan-e-Iqbal, Karachi
+</p>
 
-<a href="https://wa.me/923352554413" target="_blank">
-Order Food on WhatsApp
+<a class="whatsapp"
+href="https://wa.me/923352554413"
+target="_blank">
+Contact on WhatsApp
 </a>
+
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>Do you offer food delivery in Gulshan-e-Iqbal?</h3>
 
 <p>
-Yes, Ali Food Point offers food delivery services in Gulshan-e-Iqbal, Karachi.
+Yes, Ali Food Point offers food delivery services
+in Gulshan-e-Iqbal, Karachi.
 </p>
 
 <h3>How can I place a food delivery order?</h3>
 
 <p>
-You can contact Ali Food Point on WhatsApp to ask about food delivery orders.
+You can contact Ali Food Point on WhatsApp
+to place a food delivery order.
 </p>
 
 <h3>How can I contact Ali Food Point?</h3>
 
 <p>
-You can contact us through WhatsApp at 0335 2554413.
+You can contact us through WhatsApp at
+0335 2554413.
 </p>
 
+<h2>Ali Food Point Menu</h2>
+
+<p>
+<a href="menu.html">View Ali Food Point Menu</a>
+</p>
+
+</main>
+
+<footer>
+
+<p>Ali Food Point | Gulshan-e-Iqbal, Karachi</p>
+
+</footer>
+
 </body>
+
 </html>
